@@ -1,0 +1,15 @@
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\obj\Debug\net8.0\TesteTecnicoBenner.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\obj\Debug\net8.0\TesteTecnicoBenner.Infrastructure.AssemblyInfoInputs.cache
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\obj\Debug\net8.0\TesteTecnicoBenner.Infrastructure.AssemblyInfo.cs
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\obj\Debug\net8.0\TesteTecnicoBenner.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\obj\Debug\net8.0\TesteTecnicoBenner.Infrastructure.csproj.AssemblyReference.cache
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\bin\Debug\net8.0\TesteTecnicoBenner.Infrastructure.deps.json
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\bin\Debug\net8.0\TesteTecnicoBenner.Infrastructure.dll
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\bin\Debug\net8.0\TesteTecnicoBenner.Infrastructure.pdb
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\bin\Debug\net8.0\TesteTecnicoBenner.Domain.dll
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\bin\Debug\net8.0\TesteTecnicoBenner.Domain.pdb
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\obj\Debug\net8.0\TesteTec.7680CBBB.Up2Date
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\obj\Debug\net8.0\TesteTecnicoBenner.Infrastructure.dll
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\obj\Debug\net8.0\refint\TesteTecnicoBenner.Infrastructure.dll
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\obj\Debug\net8.0\TesteTecnicoBenner.Infrastructure.pdb
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Infrastructure\obj\Debug\net8.0\ref\TesteTecnicoBenner.Infrastructure.dll

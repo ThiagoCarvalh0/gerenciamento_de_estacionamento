@@ -1,0 +1,282 @@
+[
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.PrecosController",
+    "Method": "GetPrecos",
+    "RelativePath": "api/Precos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TesteTecnicoBenner.Application.DTOs.PrecoDto, TesteTecnicoBenner.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.PrecosController",
+    "Method": "CriarPreco",
+    "RelativePath": "api/Precos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TesteTecnicoBenner.Application.DTOs.CriarPrecoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TesteTecnicoBenner.Application.DTOs.PrecoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.PrecosController",
+    "Method": "GetPreco",
+    "RelativePath": "api/Precos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TesteTecnicoBenner.Application.DTOs.PrecoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.PrecosController",
+    "Method": "AtualizarPreco",
+    "RelativePath": "api/Precos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TesteTecnicoBenner.Application.DTOs.AtualizarPrecoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TesteTecnicoBenner.Application.DTOs.PrecoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.PrecosController",
+    "Method": "ExcluirPreco",
+    "RelativePath": "api/Precos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.PrecosController",
+    "Method": "GetPrecosPaginado",
+    "RelativePath": "api/Precos/paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "order",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TesteTecnicoBenner.Application.DTOs.PaginacaoDto\u00601[[TesteTecnicoBenner.Application.DTOs.PrecoDto, TesteTecnicoBenner.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.PrecosController",
+    "Method": "GetPrecosRecentes",
+    "RelativePath": "api/Precos/recentes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dias",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TesteTecnicoBenner.Application.DTOs.PrecoDto, TesteTecnicoBenner.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.PrecosController",
+    "Method": "GetPrecosVigentes",
+    "RelativePath": "api/Precos/vigentes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TesteTecnicoBenner.Application.DTOs.PrecoDto, TesteTecnicoBenner.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.VeiculosController",
+    "Method": "GetTodos",
+    "RelativePath": "api/Veiculos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.VeiculosController",
+    "Method": "GetPorPlaca",
+    "RelativePath": "api/Veiculos/{placa}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "placa",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.VeiculosController",
+    "Method": "GetValorAtual",
+    "RelativePath": "api/Veiculos/{placa}/valor-atual",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "placa",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.VeiculosController",
+    "Method": "RegistrarEntrada",
+    "RelativePath": "api/Veiculos/entrada",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TesteTecnicoBenner.Application.DTOs.EntradaVeiculoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteTecnicoBenner.Controllers.VeiculosController",
+    "Method": "RegistrarSaida",
+    "RelativePath": "api/Veiculos/saida",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TesteTecnicoBenner.Application.DTOs.SaidaVeiculoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

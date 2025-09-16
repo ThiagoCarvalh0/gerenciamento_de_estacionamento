@@ -1,0 +1,15 @@
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\obj\Debug\net8.0\TesteTecnicoBenner.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\obj\Debug\net8.0\TesteTecnicoBenner.Application.AssemblyInfoInputs.cache
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\obj\Debug\net8.0\TesteTecnicoBenner.Application.AssemblyInfo.cs
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\obj\Debug\net8.0\TesteTecnicoBenner.Application.csproj.CoreCompileInputs.cache
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\bin\Debug\net8.0\TesteTecnicoBenner.Application.deps.json
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\bin\Debug\net8.0\TesteTecnicoBenner.Application.dll
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\bin\Debug\net8.0\TesteTecnicoBenner.Application.pdb
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\bin\Debug\net8.0\TesteTecnicoBenner.Domain.dll
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\bin\Debug\net8.0\TesteTecnicoBenner.Domain.pdb
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\obj\Debug\net8.0\TesteTecnicoBenner.Application.csproj.AssemblyReference.cache
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\obj\Debug\net8.0\TesteTec.30F4A435.Up2Date
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\obj\Debug\net8.0\TesteTecnicoBenner.Application.dll
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\obj\Debug\net8.0\refint\TesteTecnicoBenner.Application.dll
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\obj\Debug\net8.0\TesteTecnicoBenner.Application.pdb
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Application\obj\Debug\net8.0\ref\TesteTecnicoBenner.Application.dll

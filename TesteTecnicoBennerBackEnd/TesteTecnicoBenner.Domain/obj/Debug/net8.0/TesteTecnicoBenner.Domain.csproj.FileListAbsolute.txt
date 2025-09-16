@@ -1,0 +1,11 @@
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Domain\bin\Debug\net8.0\TesteTecnicoBenner.Domain.deps.json
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Domain\bin\Debug\net8.0\TesteTecnicoBenner.Domain.dll
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Domain\bin\Debug\net8.0\TesteTecnicoBenner.Domain.pdb
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Domain\obj\Debug\net8.0\TesteTecnicoBenner.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Domain\obj\Debug\net8.0\TesteTecnicoBenner.Domain.AssemblyInfoInputs.cache
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Domain\obj\Debug\net8.0\TesteTecnicoBenner.Domain.AssemblyInfo.cs
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Domain\obj\Debug\net8.0\TesteTecnicoBenner.Domain.csproj.CoreCompileInputs.cache
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Domain\obj\Debug\net8.0\TesteTecnicoBenner.Domain.dll
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Domain\obj\Debug\net8.0\refint\TesteTecnicoBenner.Domain.dll
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Domain\obj\Debug\net8.0\TesteTecnicoBenner.Domain.pdb
+D:\Meus Repos\TesteTecnicoBenner\TesteTecnicoBenner\TesteTecnicoBenner.Domain\obj\Debug\net8.0\ref\TesteTecnicoBenner.Domain.dll

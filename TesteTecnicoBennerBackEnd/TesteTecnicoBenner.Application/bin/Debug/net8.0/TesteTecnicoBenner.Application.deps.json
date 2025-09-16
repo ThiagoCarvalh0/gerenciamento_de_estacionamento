@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TesteTecnicoBenner.Application/1.0.0": {
+        "dependencies": {
+          "TesteTecnicoBenner.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TesteTecnicoBenner.Application.dll": {}
+        }
+      },
+      "TesteTecnicoBenner.Domain/1.0.0": {
+        "runtime": {
+          "TesteTecnicoBenner.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteTecnicoBenner.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TesteTecnicoBenner.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

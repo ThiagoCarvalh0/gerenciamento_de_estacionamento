@@ -1,0 +1,81 @@
+@TesteTecnicoBenner_HostAddress = http://localhost:5048
+
+### ========================================
+### TESTES DE PREÇOS
+### ========================================
+
+### Listar preços vigentes
+GET {{TesteTecnicoBenner_HostAddress}}/api/precos/vigentes
+
+### Criar preço de exemplo (R$ 2,00 hora inicial, R$ 1,00 hora adicional)
+POST {{TesteTecnicoBenner_HostAddress}}/api/precos
+Content-Type: application/json
+
+{
+  "vigenciaInicio": "2024-01-01T00:00:00",
+  "vigenciaFim": "2024-12-31T23:59:59",
+  "valorHoraInicial": 2.00,
+  "valorHoraAdicional": 1.00
+}
+
+### ========================================
+### TESTES DE VEÍCULOS
+### ========================================
+
+### Registrar entrada de veículo
+POST {{TesteTecnicoBenner_HostAddress}}/api/veiculos/entrada
+Content-Type: application/json
+
+{
+  "placa": "TES1234"
+}
+
+### Buscar veículo por placa (mostra ValorCobrado = 0 se ainda não saiu)
+GET {{TesteTecnicoBenner_HostAddress}}/api/veiculos/TES1234
+
+### Calcular valor atual (sem sair do estacionamento)
+GET {{TesteTecnicoBenner_HostAddress}}/api/veiculos/TES1234/valor-atual
+
+### Registrar saída de veículo
+POST {{TesteTecnicoBenner_HostAddress}}/api/veiculos/saida
+Content-Type: application/json
+
+{
+  "placa": "TES1234"
+}
+
+### ========================================
+### TESTES DE CÁLCULO DE PREÇOS
+### ========================================
+
+### Teste 1: Entrada para teste de 30 minutos
+POST {{TesteTecnicoBenner_HostAddress}}/api/veiculos/entrada
+Content-Type: application/json
+
+{
+  "placa": "TEST30MIN"
+}
+
+### Teste 2: Entrada para teste de 1 hora
+POST {{TesteTecnicoBenner_HostAddress}}/api/veiculos/entrada
+Content-Type: application/json
+
+{
+  "placa": "TEST1HORA"
+}
+
+### Teste 3: Entrada para teste de 1h 10min (tolerância)
+POST {{TesteTecnicoBenner_HostAddress}}/api/veiculos/entrada
+Content-Type: application/json
+
+{
+  "placa": "TEST1H10MIN"
+}
+
+### Teste 4: Entrada para teste de 2h 15min
+POST {{TesteTecnicoBenner_HostAddress}}/api/veiculos/entrada
+Content-Type: application/json
+
+{
+  "placa": "TEST2H15MIN"
+}

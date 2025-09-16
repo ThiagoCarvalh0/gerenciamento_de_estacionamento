@@ -1,0 +1,51 @@
+@TesteTecnicoBenner_HostAddress = http://localhost:5048
+
+### ========================================
+### TESTE DE VIGÊNCIA - PREÇOS EXPIRADOS
+### ========================================
+
+### 1. Criar preço que já expirou (vigência no passado)
+POST {{TesteTecnicoBenner_HostAddress}}/api/precos
+Content-Type: application/json
+
+{
+  "vigenciaInicio": "2025-09-10T00:00:00",
+  "vigenciaFim": "2025-09-12T23:59:59",
+  "valorHoraInicial": 3.00,
+  "valorHoraAdicional": 1.50
+}
+
+### 2. Criar preço vigente (vigência atual)
+POST {{TesteTecnicoBenner_HostAddress}}/api/precos
+Content-Type: application/json
+
+{
+  "vigenciaInicio": "2025-09-13T00:00:00",
+  "vigenciaFim": "2025-09-15T23:59:59",
+  "valorHoraInicial": 4.00,
+  "valorHoraAdicional": 2.00
+}
+
+### 3. Criar preço futuro (ainda não vigente)
+POST {{TesteTecnicoBenner_HostAddress}}/api/precos
+Content-Type: application/json
+
+{
+  "vigenciaInicio": "2025-09-16T00:00:00",
+  "vigenciaFim": "2025-09-18T23:59:59",
+  "valorHoraInicial": 5.00,
+  "valorHoraAdicional": 2.50
+}
+
+### ========================================
+### TESTAR ENDPOINTS DE VIGÊNCIA
+### ========================================
+
+### Listar TODOS os preços (deve mostrar vigente: true/false corretamente)
+GET {{TesteTecnicoBenner_HostAddress}}/api/precos
+
+### Listar apenas preços VIGENTES (deve mostrar apenas o vigente)
+GET {{TesteTecnicoBenner_HostAddress}}/api/precos/vigentes
+
+### Listar preços RECENTES (últimos 30 dias)
+GET {{TesteTecnicoBenner_HostAddress}}/api/precos/recentes
